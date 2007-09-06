@@ -1,8 +1,8 @@
+Summary:        Recover files based on their headers and footers
 Name:           foremost
-Version:        1.4
+Version:        1.5
 Release:        %mkrel 1
 Epoch:          0
-Summary:        Recover files based on their headers and footers
 Group:          File tools
 License:        Public Domain
 URL:            http://foremost.sourceforge.net/
@@ -22,7 +22,7 @@ choose which headers you want to look for.
 %{__perl} -pi -e 's|/usr/local/etc|%{_sysconfdir}|' config.c
 
 %build
-%{make}
+%make
 
 %install
 %{__rm} -rf %{buildroot}
@@ -42,5 +42,3 @@ choose which headers you want to look for.
 %attr(0755,root,root) %{_bindir}/foremost
 %{_mandir}/man1/%{name}.1*
 %config(noreplace) %{_sysconfdir}/%{name}.conf
-
-
