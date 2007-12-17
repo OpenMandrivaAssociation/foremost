@@ -7,7 +7,6 @@ Group:          File tools
 License:        Public Domain
 URL:            http://foremost.sourceforge.net/
 Source0:        http://foremost.sourceforge.net/pkg/foremost-%{version}.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
 %description
 Foremost is a Linux program to recover files based on their headers and
