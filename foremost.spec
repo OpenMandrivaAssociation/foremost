@@ -1,7 +1,7 @@
 Summary:        Recover files based on their headers and footers
 Name:           foremost
-Version:        1.5
-Release:        %mkrel 3
+Version:        1.5.4
+Release:        %mkrel 1
 Epoch:          0
 Group:          File tools
 License:        Public Domain
