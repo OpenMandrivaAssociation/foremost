@@ -2,7 +2,7 @@
 
 Summary:        Recover files based on their headers and footers
 Name:           foremost
-Version:        1.5.6
+Version:        1.5.7
 Release:        %mkrel 1
 Epoch:          0
 Group:          File tools
