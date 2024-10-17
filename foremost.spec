@@ -7,7 +7,7 @@ Release:        3
 Epoch:          0
 Group:          File tools
 License:        Public Domain
-URL:            http://foremost.sourceforge.net/
+URL:            https://foremost.sourceforge.net/
 Source0:        http://foremost.sourceforge.net/pkg/foremost-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root
 
